@@ -1,0 +1,1230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E1D7FDEB4D9034D19E53C0 /* SAPFioriFlows.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF3040E33858BCA9ABDE7F2 /* SAPFioriFlows.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03FD40D212D9B883C5A2C74E /* CurrentSolicitationsMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2482AA60D606FD87FF2CF165 /* CurrentSolicitationsMasterViewController.swift */; };
+		0FA16994934605527421DAAA /* MaterialMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3848116857F6BE947D7639F5 /* MaterialMasterViewController.swift */; };
+		1277F7611F8E66AF0060AF58 /* SAPLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */; };
+		1493103A83012C3A931618B4 /* ApplicationUIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3477B0444CCA7A344EC05F /* ApplicationUIManager.swift */; };
+		1495C27B9FBAD0652B1BE8B6 /* DealersAppWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 02E5D6FFABE6544E9A32E022 /* DealersAppWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1CAAFF86B8012CABE6BEABCB /* ProxyServiceCollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E11D1EA219EEF52FE24480 /* ProxyServiceCollectionsViewController.swift */; };
+		22A1BE119C86D3779B6A026E /* SAPCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F35E23D083D24593F383A70 /* SAPCommon.xcframework */; };
+		295B28D042F9707E47243169 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CD894D93FE5B64CFC1F4F9 /* IntentHandler.swift */; };
+		298D98C57548D1769CDD366D /* AuxiliaryCommunicationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEC9A9B111F19ABA6795EC6 /* AuxiliaryCommunicationStep.swift */; };
+		2B4A460EC1F08B79E2D57388 /* SharedFmwk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC0A53AE43F9E3C937024F6 /* SharedFmwk.framework */; };
+		2E03D81A70BCF092B6C10C79 /* CellCreationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A45B741849A6344CA96C2 /* CellCreationHelper.swift */; };
+		2E3D0EDDA8FD37A598B03DAA /* DynamicDestinationSelectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5380DB2AADBB473E6136B850 /* DynamicDestinationSelectionHandler.swift */; };
+		3166DCE126F5FB118B5E7556 /* DeepLinkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B9EB9EA4E5EC483424C7A3 /* DeepLinkHelper.swift */; };
+		34185D3F0DB424D6F6BB49CD /* WidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3F1FB4CB8F697CBF7300B /* WidgetEntryView.swift */; };
+		344E75A17A8FB176FE30B93A /* OnboardingErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FBF79E753A6109327D82F4 /* OnboardingErrorHandler.swift */; };
+		499A327E6434868CD874A35E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A3F918E9499E2E4283224 /* LoginView.swift */; };
+		49DDA7882472CC67E5B02779 /* WidgetRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E8FA0324D74870E5D54CDC /* WidgetRowViewModel.swift */; };
+		50D8D4EF5670278D8E5BFB60 /* SAPFoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 268633A93F7053592EA020CD /* SAPFoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		51B6323ABE19D2422BD97F92 /* DestinationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF720A676B22DC13063B1C /* DestinationsViewController.swift */; };
+		529D2B431EC5080802EE5816 /* ProxyService.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5C989D0B6DC4CFE9F75BB3 /* ProxyService.storyboard */; };
+		578726B9999FA0721D5A8396 /* SAPCommon.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5F35E23D083D24593F383A70 /* SAPCommon.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		587EB1A45AE13ED51BDB0F01 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF06567EBD740C424F6FD81 /* Widget.swift */; };
+		5ABAC5CF6B2B74CCAE5C1FD2 /* SAPOData.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6611FCFD27742559406C10FD /* SAPOData.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5D4323B296341C180A595541 /* WidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BF6337060ABE34079687D9 /* WidgetEntry.swift */; };
+		5F42A7DD67D1868193359F21 /* ProxyServiceWidgetDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E081C8EE707DD4C9D07DF9 /* ProxyServiceWidgetDataLoader.swift */; };
+		67B32CFAB26BA61BA84CA321 /* ShipClose.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C9BAC2E1DB4B133F30C46CE /* ShipClose.storyboard */; };
+		67B5C1160F26CA5112F2882D /* WidgetIntentTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7D536ECC5772EC2C067BCB /* WidgetIntentTimelineProvider.swift */; };
+		68BD1A09C8C4964392210C5C /* WidgetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822B1239F0CDE30D7C58102C /* WidgetRowView.swift */; };
+		6A5A437111425DF034F82485 /* DynamicDestinationSelection.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1DD450EDEAA8DD381FE38A80 /* DynamicDestinationSelection.intentdefinition */; };
+		6D11933BD7053FBE7E77CDD6 /* DynamicDestinationSelection.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1DD450EDEAA8DD381FE38A80 /* DynamicDestinationSelection.intentdefinition */; };
+		701E09373791D475A2F0B7CB /* SAPFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268633A93F7053592EA020CD /* SAPFoundation.xcframework */; };
+		789F0D23EBDC0D808456D84F /* ProxyServiceFmwk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A313E049CC5FEC9C6C7221 /* ProxyServiceFmwk.framework */; };
+		7A1315B91D4B982000A5DA56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1315B81D4B982000A5DA56 /* AppDelegate.swift */; };
+		7A1315C21D4B982000A5DA56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1315C11D4B982000A5DA56 /* Assets.xcassets */; };
+		7A1315C51D4B982000A5DA56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */; };
+		7A16F06D1FD1B3C700D2FABD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7A16F06C1FD1B3C700D2FABD /* README.md */; };
+		7A5744B621DE553600E58C7F /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5744B521DE553600E58C7F /* UITests.swift */; };
+		815B9A18E6F0F515D724D710 /* ConfigurationProvider.plist in Resources */ = {isa = PBXBuildFile; fileRef = 896743F43D6B556DAABA0D0C /* ConfigurationProvider.plist */; };
+		834395B3B08E8EE3F69EA619 /* RejectionCodes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7796D85CFB599B5C9CEF97C /* RejectionCodes.storyboard */; };
+		8591E627392D60ED17C3746E /* ProxyServiceWidgetRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A270D4A0E737F3F423702EB3 /* ProxyServiceWidgetRowViewModel.swift */; };
+		8AB3C8F9F68D13BB29FED89F /* Material.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A762B0ABFFD9B07622D4AA /* Material.storyboard */; };
+		8C3B589C7EC2AC3E8C33C97C /* DynamicDestinationSelection.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AABF044DD8977191232F811B /* DynamicDestinationSelection.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9085CBA505EAE3F1FD60AF69 /* ShipCloseMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698F709D62748A4594166F2 /* ShipCloseMasterViewController.swift */; };
+		943849CDAC824E680FC7B9F3 /* SharedFmwk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EA03389B1AB61CD44CDE42 /* SharedFmwk.framework */; };
+		94F366120015E91F15161B39 /* DealersAppWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05AE1E11F7D5105E38DD70 /* DealersAppWidgetEntryView.swift */; };
+		9565FB287A3D3FB4F904E69D /* ShipCloseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D937CF6BF623B132A1D3E8 /* ShipCloseDetailViewController.swift */; };
+		9641E7763828A6EBBFA2BF11 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718AD211C1CEF6E68CCE7B1 /* WidgetKit.framework */; };
+		97772B072E62B1513E91DD97 /* RejectionCodesMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0E29D6BD5FDAD27FC39A70 /* RejectionCodesMasterViewController.swift */; };
+		9C83EC84DA36BD16B93904C0 /* CurrentSolicitations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C729B999F5FA9AB97A5A562A /* CurrentSolicitations.storyboard */; };
+		A41EF8F649D72549AB4FA347 /* ProxyServiceFmwk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03A313E049CC5FEC9C6C7221 /* ProxyServiceFmwk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A765AD39D0F16D0F523198B3 /* OnboardingFlowProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607DDC75CB527C6015B5D5E1 /* OnboardingFlowProvider.swift */; };
+		AF6ACB874DC15B7F8E3074AA /* SharedFmwk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F3EA03389B1AB61CD44CDE42 /* SharedFmwk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		B22F1FE085070558A01CAE37 /* SAPFioriLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0B6AA388235966E439C9A /* SAPFioriLoadingIndicator.swift */; };
+		BCD09E390BB80DCBDF571F79 /* MaterialDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E24702B93794955CC168AB6 /* MaterialDetailViewController.swift */; };
+		BE38D6C71FE8A0529443142F /* SAPFiori.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC0CB205F4305C648518D41 /* SAPFiori.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		C5CDE8E4B4ED082560824667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D39B5081681925EC93DBCCD /* Assets.xcassets */; };
+		C644A2F0EFB4B07B4659F859 /* SAPOData.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6611FCFD27742559406C10FD /* SAPOData.xcframework */; };
+		CB9ACEA482D210240B5090A2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D41EA780A3130058CBEE4DD /* SwiftUI.framework */; };
+		CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCA7A9B1E3778A9001AF49E /* Main.storyboard */; };
+		CD3E69E85D838CF0E46846B4 /* ODataOnboardingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEFD082A944015A2EF1C928 /* ODataOnboardingStep.swift */; };
+		D697C601ECBAAE3A075D63AE /* AppParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E3177E5F01777BF91CB2 /* AppParameters.plist */; };
+		D900B9F1B7F628CD473944E3 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8BACFC9B7DA7A1EFC94BC6 /* AlertHelper.swift */; };
+		D9E231662A91913BE2BE0AC6 /* SAPFiori.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC0CB205F4305C648518D41 /* SAPFiori.xcframework */; };
+		E08B6AD9EF11EF9C420214E4 /* DynamicDestinationSelectionIntentExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0046475F935D732DA2325C /* DynamicDestinationSelectionIntentExtension.swift */; };
+		E091C34CB87C94DADCA7F640 /* SharedFmwk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE96011B0916D55A7CC2186B /* SharedFmwk.framework */; };
+		E2DEDFEAF4B7A18552EEDA25 /* WidgetDataLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B32995789283AEC87465173 /* WidgetDataLoading.swift */; };
+		E48FA8E2F49398CDB6C6AA31 /* RejectionCodesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8088D6D5C93861CB57220AB /* RejectionCodesDetailViewController.swift */; };
+		E911DFAB3BEB18EA7B7B5497 /* WidgetConfigurationProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63451D899105936AC6232199 /* WidgetConfigurationProviding.swift */; };
+		EEE3634C7B549815D250CAAA /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C21950E988CC2D4237782EB /* LocalizedStrings.swift */; };
+		F4589F244794E286BC580876 /* SAPFioriFlows.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF3040E33858BCA9ABDE7F2 /* SAPFioriFlows.xcframework */; };
+		F63AA6446FD50E71FDC8A2A5 /* WidgetConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955F0E628C7F91983C406743 /* WidgetConfigurationProvider.swift */; };
+		F91CC40CDD733721712B1FFA /* WidgetDataLoadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D154AA7CCB9986C182EDC0C /* WidgetDataLoadingManager.swift */; };
+		FC6309A32D2D1540B18F9D89 /* CurrentSolicitationsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3776B48BBF9B8D610AD53 /* CurrentSolicitationsDetailViewController.swift */; };
+		FF90A4E362C57A98BAC0E5FB /* ProxyServiceFmwk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBF78CBA411F185122EA8AD /* ProxyServiceFmwk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		467F27983245CC8B12618E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A1315AD1D4B982000A5DA56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53673A6B4CD803360816EE8F;
+			remoteInfo = DealersAppWidgetExtension;
+		};
+		51A97B7CA3FEE807B4CF27A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A1315AD1D4B982000A5DA56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F122E626F64EF21A3C7AB9A;
+			remoteInfo = DynamicDestinationSelection;
+		};
+		7A5744B821DE553700E58C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A1315AD1D4B982000A5DA56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A1315B41D4B982000A5DA56;
+			remoteInfo = DealersApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		758AC1C31D5A265200311F39 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				50D8D4EF5670278D8E5BFB60 /* SAPFoundation.xcframework in Embed Frameworks */,
+				A41EF8F649D72549AB4FA347 /* ProxyServiceFmwk.framework in Embed Frameworks */,
+				578726B9999FA0721D5A8396 /* SAPCommon.xcframework in Embed Frameworks */,
+				AF6ACB874DC15B7F8E3074AA /* SharedFmwk.framework in Embed Frameworks */,
+				5ABAC5CF6B2B74CCAE5C1FD2 /* SAPOData.xcframework in Embed Frameworks */,
+				02E1D7FDEB4D9034D19E53C0 /* SAPFioriFlows.xcframework in Embed Frameworks */,
+				BE38D6C71FE8A0529443142F /* SAPFiori.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE32DC0F84B9E1FC2750CAFE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1495C27B9FBAD0652B1BE8B6 /* DealersAppWidgetExtension.appex in Embed App Extensions */,
+				8C3B589C7EC2AC3E8C33C97C /* DynamicDestinationSelection.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02E5D6FFABE6544E9A32E022 /* DealersAppWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DealersAppWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A313E049CC5FEC9C6C7221 /* ProxyServiceFmwk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 1; path = ProxyServiceFmwk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CBBCF931144C53D3219AA0 /* DynamicDestinationSelection.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = DynamicDestinationSelection.entitlements; sourceTree = "<group>"; };
+		0D39B5081681925EC93DBCCD /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SAPLogo@2x.png"; sourceTree = "<group>"; };
+		12BF6337060ABE34079687D9 /* WidgetEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WidgetEntry.swift; sourceTree = "<group>"; };
+		13A0B6AA388235966E439C9A /* SAPFioriLoadingIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPFioriLoadingIndicator.swift; path = Utils/SAPFioriLoadingIndicator.swift; sourceTree = "<group>"; };
+		13C3776B48BBF9B8D610AD53 /* CurrentSolicitationsDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrentSolicitationsDetailViewController.swift; path = ViewControllers/ProxyService/CurrentSolicitations/CurrentSolicitationsDetailViewController.swift; sourceTree = "<group>"; };
+		145156D4EFD3ECB47CD13818 /* DealersAppWidgetExtension.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = DealersAppWidgetExtension.entitlements; sourceTree = "<group>"; };
+		1DD450EDEAA8DD381FE38A80 /* DynamicDestinationSelection.intentdefinition */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.intentdefinition; path = DynamicDestinationSelection.intentdefinition; sourceTree = "<group>"; };
+		2482AA60D606FD87FF2CF165 /* CurrentSolicitationsMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrentSolicitationsMasterViewController.swift; path = ViewControllers/ProxyService/CurrentSolicitations/CurrentSolicitationsMasterViewController.swift; sourceTree = "<group>"; };
+		24B9EB9EA4E5EC483424C7A3 /* DeepLinkHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeepLinkHelper.swift; path = Utils/DeepLinkHelper.swift; sourceTree = "<group>"; };
+		261A3F918E9499E2E4283224 /* LoginView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = UI/LoginView.swift; sourceTree = "<group>"; };
+		268633A93F7053592EA020CD /* SAPFoundation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SAPFoundation.xcframework; path = "../Release-xcframework/SAPFoundation.xcframework"; sourceTree = "<group>"; };
+		2CF06567EBD740C424F6FD81 /* Widget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Widget.swift; sourceTree = "<group>"; };
+		2D41EA780A3130058CBEE4DD /* SwiftUI.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3848116857F6BE947D7639F5 /* MaterialMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialMasterViewController.swift; path = ViewControllers/ProxyService/Material/MaterialMasterViewController.swift; sourceTree = "<group>"; };
+		3D154AA7CCB9986C182EDC0C /* WidgetDataLoadingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetDataLoadingManager.swift; path = Widget/DataLoaders/WidgetDataLoadingManager.swift; sourceTree = "<group>"; };
+		43D3F1FB4CB8F697CBF7300B /* WidgetEntryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetEntryView.swift; path = UI/WidgetEntryView.swift; sourceTree = "<group>"; };
+		44CD894D93FE5B64CFC1F4F9 /* IntentHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		4718AD211C1CEF6E68CCE7B1 /* WidgetKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4C7D536ECC5772EC2C067BCB /* WidgetIntentTimelineProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WidgetIntentTimelineProvider.swift; sourceTree = "<group>"; };
+		5380DB2AADBB473E6136B850 /* DynamicDestinationSelectionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DynamicDestinationSelectionHandler.swift; sourceTree = "<group>"; };
+		5A0E29D6BD5FDAD27FC39A70 /* RejectionCodesMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RejectionCodesMasterViewController.swift; path = ViewControllers/ProxyService/RejectionCodes/RejectionCodesMasterViewController.swift; sourceTree = "<group>"; };
+		5DC0A53AE43F9E3C937024F6 /* SharedFmwk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 1; path = SharedFmwk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEFD082A944015A2EF1C928 /* ODataOnboardingStep.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ODataOnboardingStep.swift; path = OData/ODataOnboardingStep.swift; sourceTree = "<group>"; };
+		5F35E23D083D24593F383A70 /* SAPCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SAPCommon.xcframework; path = "../Release-xcframework/SAPCommon.xcframework"; sourceTree = "<group>"; };
+		607DDC75CB527C6015B5D5E1 /* OnboardingFlowProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingFlowProvider.swift; path = Onboarding/OnboardingFlowProvider.swift; sourceTree = "<group>"; };
+		60BD4A4D93E4D0B979010007 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63451D899105936AC6232199 /* WidgetConfigurationProviding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetConfigurationProviding.swift; path = Configuration/WidgetConfigurationProviding.swift; sourceTree = "<group>"; };
+		64D937CF6BF623B132A1D3E8 /* ShipCloseDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShipCloseDetailViewController.swift; path = ViewControllers/ProxyService/ShipClose/ShipCloseDetailViewController.swift; sourceTree = "<group>"; };
+		6611FCFD27742559406C10FD /* SAPOData.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SAPOData.xcframework; path = "../Release-xcframework/SAPOData.xcframework"; sourceTree = "<group>"; };
+		6AC0CB205F4305C648518D41 /* SAPFiori.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SAPFiori.xcframework; path = "../Release-xcframework/SAPFiori.xcframework"; sourceTree = "<group>"; };
+		6B32995789283AEC87465173 /* WidgetDataLoading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetDataLoading.swift; path = Widget/DataLoaders/WidgetDataLoading.swift; sourceTree = "<group>"; };
+		6EF6E38FB1E51342F7BF1638 /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ProxyService.storyboard; sourceTree = "<group>"; };
+		6F64CBC59A63D867279163A2 /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/RejectionCodes.storyboard; sourceTree = "<group>"; };
+		7698F709D62748A4594166F2 /* ShipCloseMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShipCloseMasterViewController.swift; path = ViewControllers/ProxyService/ShipClose/ShipCloseMasterViewController.swift; sourceTree = "<group>"; };
+		7A1315B51D4B982000A5DA56 /* DealersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DealersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1315B81D4B982000A5DA56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A1315C11D4B982000A5DA56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A1315C41D4B982000A5DA56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A1315C61D4B982000A5DA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A16F06C1FD1B3C700D2FABD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7A5744B321DE553600E58C7F /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5744B521DE553600E58C7F /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
+		7A5744B721DE553700E58C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E24702B93794955CC168AB6 /* MaterialDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialDetailViewController.swift; path = ViewControllers/ProxyService/Material/MaterialDetailViewController.swift; sourceTree = "<group>"; };
+		822B1239F0CDE30D7C58102C /* WidgetRowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetRowView.swift; path = UI/WidgetRowView.swift; sourceTree = "<group>"; };
+		84E081C8EE707DD4C9D07DF9 /* ProxyServiceWidgetDataLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProxyServiceWidgetDataLoader.swift; path = Widget/DataLoaders/ProxyServiceWidgetDataLoader.swift; sourceTree = "<group>"; };
+		896743F43D6B556DAABA0D0C /* ConfigurationProvider.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = ConfigurationProvider.plist; path = Onboarding/ConfigurationProvider.plist; sourceTree = "<group>"; };
+		8B96E1F2290B5C56B0821045 /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CurrentSolicitations.storyboard; sourceTree = "<group>"; };
+		8C21950E988CC2D4237782EB /* LocalizedStrings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
+		8E3477B0444CCA7A344EC05F /* ApplicationUIManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationUIManager.swift; path = Onboarding/ApplicationUIManager.swift; sourceTree = "<group>"; };
+		8EF3040E33858BCA9ABDE7F2 /* SAPFioriFlows.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SAPFioriFlows.xcframework; path = "../Release-xcframework/SAPFioriFlows.xcframework"; sourceTree = "<group>"; };
+		9137606C255ABF5C0059ABE7 /* DealersApp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = DealersApp.entitlements; sourceTree = "<group>"; };
+		955F0E628C7F91983C406743 /* WidgetConfigurationProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetConfigurationProvider.swift; path = Configuration/WidgetConfigurationProvider.swift; sourceTree = "<group>"; };
+		96B7E3177E5F01777BF91CB2 /* AppParameters.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = AppParameters.plist; path = Onboarding/AppParameters.plist; sourceTree = "<group>"; };
+		9C8BACFC9B7DA7A1EFC94BC6 /* AlertHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertHelper.swift; path = Utils/AlertHelper.swift; sourceTree = "<group>"; };
+		A270D4A0E737F3F423702EB3 /* ProxyServiceWidgetRowViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProxyServiceWidgetRowViewModel.swift; path = Entities/ProxyServiceWidgetRowViewModel.swift; sourceTree = "<group>"; };
+		A634D0918390F9EDE4549D6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8088D6D5C93861CB57220AB /* RejectionCodesDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RejectionCodesDetailViewController.swift; path = ViewControllers/ProxyService/RejectionCodes/RejectionCodesDetailViewController.swift; sourceTree = "<group>"; };
+		AABF044DD8977191232F811B /* DynamicDestinationSelection.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DynamicDestinationSelection.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF8A27ACCB6FC8AC22F085B /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ShipClose.storyboard; sourceTree = "<group>"; };
+		AE96011B0916D55A7CC2186B /* SharedFmwk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 1; path = SharedFmwk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBF78CBA411F185122EA8AD /* ProxyServiceFmwk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 1; path = ProxyServiceFmwk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2EF35CB8C9156F58FAE1E7D /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Material.storyboard; sourceTree = "<group>"; };
+		CB909D801E38CA8800218154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC05AE1E11F7D5105E38DD70 /* DealersAppWidgetEntryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DealersAppWidgetEntryView.swift; path = UI/DealersAppWidgetEntryView.swift; sourceTree = "<group>"; };
+		CD0046475F935D732DA2325C /* DynamicDestinationSelectionIntentExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DynamicDestinationSelectionIntentExtension.swift; sourceTree = "<group>"; };
+		D9FBF79E753A6109327D82F4 /* OnboardingErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingErrorHandler.swift; path = Onboarding/OnboardingErrorHandler.swift; sourceTree = "<group>"; };
+		DB6A45B741849A6344CA96C2 /* CellCreationHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellCreationHelper.swift; path = Utils/CellCreationHelper.swift; sourceTree = "<group>"; };
+		DCEC9A9B111F19ABA6795EC6 /* AuxiliaryCommunicationStep.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuxiliaryCommunicationStep.swift; path = Widget/AuxiliaryCommunicationStep.swift; sourceTree = "<group>"; };
+		DEBF720A676B22DC13063B1C /* DestinationsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DestinationsViewController.swift; path = ViewControllers/DestinationsViewController.swift; sourceTree = "<group>"; };
+		E9E11D1EA219EEF52FE24480 /* ProxyServiceCollectionsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProxyServiceCollectionsViewController.swift; path = ViewControllers/ProxyService/ProxyServiceCollectionsViewController.swift; sourceTree = "<group>"; };
+		F1E8FA0324D74870E5D54CDC /* WidgetRowViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetRowViewModel.swift; path = Entities/WidgetRowViewModel.swift; sourceTree = "<group>"; };
+		F3EA03389B1AB61CD44CDE42 /* SharedFmwk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 1; path = SharedFmwk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E6EC15180B2B77C06075EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9641E7763828A6EBBFA2BF11 /* WidgetKit.framework in Frameworks */,
+				CB9ACEA482D210240B5090A2 /* SwiftUI.framework in Frameworks */,
+				FF90A4E362C57A98BAC0E5FB /* ProxyServiceFmwk.framework in Frameworks */,
+				2B4A460EC1F08B79E2D57388 /* SharedFmwk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1315B21D4B982000A5DA56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701E09373791D475A2F0B7CB /* SAPFoundation.xcframework in Frameworks */,
+				789F0D23EBDC0D808456D84F /* ProxyServiceFmwk.framework in Frameworks */,
+				22A1BE119C86D3779B6A026E /* SAPCommon.xcframework in Frameworks */,
+				943849CDAC824E680FC7B9F3 /* SharedFmwk.framework in Frameworks */,
+				C644A2F0EFB4B07B4659F859 /* SAPOData.xcframework in Frameworks */,
+				F4589F244794E286BC580876 /* SAPFioriFlows.xcframework in Frameworks */,
+				D9E231662A91913BE2BE0AC6 /* SAPFiori.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5744B021DE553600E58C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9975B87D5423B7DA958318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E091C34CB87C94DADCA7F640 /* SharedFmwk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018A7AE7E28903580497E20C /* ShipClose */ = {
+			isa = PBXGroup;
+			children = (
+				7698F709D62748A4594166F2 /* ShipCloseMasterViewController.swift */,
+				64D937CF6BF623B132A1D3E8 /* ShipCloseDetailViewController.swift */,
+				0C9BAC2E1DB4B133F30C46CE /* ShipClose.storyboard */,
+			);
+			name = ShipClose;
+			sourceTree = "<group>";
+		};
+		1EE1FBE9E8C781A948152C85 /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				3848116857F6BE947D7639F5 /* MaterialMasterViewController.swift */,
+				7E24702B93794955CC168AB6 /* MaterialDetailViewController.swift */,
+				35A762B0ABFFD9B07622D4AA /* Material.storyboard */,
+			);
+			name = Material;
+			sourceTree = "<group>";
+		};
+		2239D4B437E714EA3CFE53EA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				822B1239F0CDE30D7C58102C /* WidgetRowView.swift */,
+				43D3F1FB4CB8F697CBF7300B /* WidgetEntryView.swift */,
+				261A3F918E9499E2E4283224 /* LoginView.swift */,
+				CC05AE1E11F7D5105E38DD70 /* DealersAppWidgetEntryView.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		28C947DB561DC6556E3870DA /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				7AA886F96BEBF72DF85F1B5D /* DataLoaders */,
+				DCEC9A9B111F19ABA6795EC6 /* AuxiliaryCommunicationStep.swift */,
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+		2AAAE9FBD46EE4C916E2B5B2 /* DynamicDestinationSelection */ = {
+			isa = PBXGroup;
+			children = (
+				44CD894D93FE5B64CFC1F4F9 /* IntentHandler.swift */,
+				5380DB2AADBB473E6136B850 /* DynamicDestinationSelectionHandler.swift */,
+				03CBBCF931144C53D3219AA0 /* DynamicDestinationSelection.entitlements */,
+				A634D0918390F9EDE4549D6E /* Info.plist */,
+			);
+			name = DynamicDestinationSelection;
+			path = DynamicDestinationSelection;
+			sourceTree = "<group>";
+		};
+		57A1BFD602629D197CFCF529 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				13A0B6AA388235966E439C9A /* SAPFioriLoadingIndicator.swift */,
+				DB6A45B741849A6344CA96C2 /* CellCreationHelper.swift */,
+				9C8BACFC9B7DA7A1EFC94BC6 /* AlertHelper.swift */,
+				24B9EB9EA4E5EC483424C7A3 /* DeepLinkHelper.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		5E40D563F1171139528ABE1F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				607DDC75CB527C6015B5D5E1 /* OnboardingFlowProvider.swift */,
+				D9FBF79E753A6109327D82F4 /* OnboardingErrorHandler.swift */,
+				8E3477B0444CCA7A344EC05F /* ApplicationUIManager.swift */,
+				896743F43D6B556DAABA0D0C /* ConfigurationProvider.plist */,
+				96B7E3177E5F01777BF91CB2 /* AppParameters.plist */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		626A6F9D63F52503A49CF544 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0F9041127CF2EF54D99E3F3 /* ProxyService */,
+				DEBF720A676B22DC13063B1C /* DestinationsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7A1315AC1D4B982000A5DA56 = {
+			isa = PBXGroup;
+			children = (
+				7A16F06C1FD1B3C700D2FABD /* README.md */,
+				7A1315B71D4B982000A5DA56 /* DealersApp */,
+				7A5744B421DE553600E58C7F /* UITests */,
+				7A1315B61D4B982000A5DA56 /* Products */,
+				7A1315CC1D4B990B00A5DA56 /* Frameworks */,
+				BC304E3C4C9B8C8F0175B1B6 /* DealersAppWidget */,
+				2AAAE9FBD46EE4C916E2B5B2 /* DynamicDestinationSelection */,
+			);
+			sourceTree = "<group>";
+		};
+		7A1315B61D4B982000A5DA56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A1315B51D4B982000A5DA56 /* DealersApp.app */,
+				7A5744B321DE553600E58C7F /* UITests.xctest */,
+				02E5D6FFABE6544E9A32E022 /* DealersAppWidgetExtension.appex */,
+				AABF044DD8977191232F811B /* DynamicDestinationSelection.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A1315B71D4B982000A5DA56 /* DealersApp */ = {
+			isa = PBXGroup;
+			children = (
+				9137606C255ABF5C0059ABE7 /* DealersApp.entitlements */,
+				CBCA7A9B1E3778A9001AF49E /* Main.storyboard */,
+				7A1315C11D4B982000A5DA56 /* Assets.xcassets */,
+				7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */,
+				1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */,
+				7A1315C61D4B982000A5DA56 /* Info.plist */,
+				7A1315B81D4B982000A5DA56 /* AppDelegate.swift */,
+				626A6F9D63F52503A49CF544 /* ViewControllers */,
+				57A1BFD602629D197CFCF529 /* Utils */,
+				C40FC4A319B891A17C13891A /* OData */,
+				5E40D563F1171139528ABE1F /* Onboarding */,
+				8C21950E988CC2D4237782EB /* LocalizedStrings.swift */,
+				28C947DB561DC6556E3870DA /* Widget */,
+			);
+			path = DealersApp;
+			sourceTree = "<group>";
+		};
+		7A1315CC1D4B990B00A5DA56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4718AD211C1CEF6E68CCE7B1 /* WidgetKit.framework */,
+				2D41EA780A3130058CBEE4DD /* SwiftUI.framework */,
+				268633A93F7053592EA020CD /* SAPFoundation.xcframework */,
+				03A313E049CC5FEC9C6C7221 /* ProxyServiceFmwk.framework */,
+				5F35E23D083D24593F383A70 /* SAPCommon.xcframework */,
+				F3EA03389B1AB61CD44CDE42 /* SharedFmwk.framework */,
+				6611FCFD27742559406C10FD /* SAPOData.xcframework */,
+				8EF3040E33858BCA9ABDE7F2 /* SAPFioriFlows.xcframework */,
+				6AC0CB205F4305C648518D41 /* SAPFiori.xcframework */,
+				BEBF78CBA411F185122EA8AD /* ProxyServiceFmwk.framework */,
+				5DC0A53AE43F9E3C937024F6 /* SharedFmwk.framework */,
+				AE96011B0916D55A7CC2186B /* SharedFmwk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A5744B421DE553600E58C7F /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A5744B521DE553600E58C7F /* UITests.swift */,
+				7A5744B721DE553700E58C7F /* Info.plist */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		7AA886F96BEBF72DF85F1B5D /* DataLoaders */ = {
+			isa = PBXGroup;
+			children = (
+				3D154AA7CCB9986C182EDC0C /* WidgetDataLoadingManager.swift */,
+				6B32995789283AEC87465173 /* WidgetDataLoading.swift */,
+				84E081C8EE707DD4C9D07DF9 /* ProxyServiceWidgetDataLoader.swift */,
+			);
+			name = DataLoaders;
+			sourceTree = "<group>";
+		};
+		A9F32267E3854A36FCA3A61E /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				63451D899105936AC6232199 /* WidgetConfigurationProviding.swift */,
+				955F0E628C7F91983C406743 /* WidgetConfigurationProvider.swift */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		B0F9041127CF2EF54D99E3F3 /* ProxyService */ = {
+			isa = PBXGroup;
+			children = (
+				018A7AE7E28903580497E20C /* ShipClose */,
+				C622D13EF27D49D077C85E12 /* RejectionCodes */,
+				1EE1FBE9E8C781A948152C85 /* Material */,
+				E313B13EE498257E04472008 /* CurrentSolicitations */,
+				E9E11D1EA219EEF52FE24480 /* ProxyServiceCollectionsViewController.swift */,
+				4F5C989D0B6DC4CFE9F75BB3 /* ProxyService.storyboard */,
+			);
+			name = ProxyService;
+			sourceTree = "<group>";
+		};
+		BC304E3C4C9B8C8F0175B1B6 /* DealersAppWidget */ = {
+			isa = PBXGroup;
+			children = (
+				1DD450EDEAA8DD381FE38A80 /* DynamicDestinationSelection.intentdefinition */,
+				0D39B5081681925EC93DBCCD /* Assets.xcassets */,
+				2239D4B437E714EA3CFE53EA /* UI */,
+				BE5DBACF8B7479E30846829A /* Entities */,
+				A9F32267E3854A36FCA3A61E /* Configuration */,
+				4C7D536ECC5772EC2C067BCB /* WidgetIntentTimelineProvider.swift */,
+				12BF6337060ABE34079687D9 /* WidgetEntry.swift */,
+				2CF06567EBD740C424F6FD81 /* Widget.swift */,
+				CD0046475F935D732DA2325C /* DynamicDestinationSelectionIntentExtension.swift */,
+				145156D4EFD3ECB47CD13818 /* DealersAppWidgetExtension.entitlements */,
+				60BD4A4D93E4D0B979010007 /* Info.plist */,
+			);
+			name = DealersAppWidget;
+			path = DealersAppWidget;
+			sourceTree = "<group>";
+		};
+		BE5DBACF8B7479E30846829A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F1E8FA0324D74870E5D54CDC /* WidgetRowViewModel.swift */,
+				A270D4A0E737F3F423702EB3 /* ProxyServiceWidgetRowViewModel.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		C40FC4A319B891A17C13891A /* OData */ = {
+			isa = PBXGroup;
+			children = (
+				5EEFD082A944015A2EF1C928 /* ODataOnboardingStep.swift */,
+			);
+			name = OData;
+			sourceTree = "<group>";
+		};
+		C622D13EF27D49D077C85E12 /* RejectionCodes */ = {
+			isa = PBXGroup;
+			children = (
+				5A0E29D6BD5FDAD27FC39A70 /* RejectionCodesMasterViewController.swift */,
+				A8088D6D5C93861CB57220AB /* RejectionCodesDetailViewController.swift */,
+				F7796D85CFB599B5C9CEF97C /* RejectionCodes.storyboard */,
+			);
+			name = RejectionCodes;
+			sourceTree = "<group>";
+		};
+		E313B13EE498257E04472008 /* CurrentSolicitations */ = {
+			isa = PBXGroup;
+			children = (
+				2482AA60D606FD87FF2CF165 /* CurrentSolicitationsMasterViewController.swift */,
+				13C3776B48BBF9B8D610AD53 /* CurrentSolicitationsDetailViewController.swift */,
+				C729B999F5FA9AB97A5A562A /* CurrentSolicitations.storyboard */,
+			);
+			name = CurrentSolicitations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F122E626F64EF21A3C7AB9A /* DynamicDestinationSelection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E44C9AC95D4C88636961B1 /* Build configuration list for PBXNativeTarget "DynamicDestinationSelection" */;
+			buildPhases = (
+				F51DBC64A9F341EB7FC974C5 /* Sources */,
+				8A9975B87D5423B7DA958318 /* Frameworks */,
+				8EF9FE0C75D84706526ECA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicDestinationSelection;
+			productName = DynamicDestinationSelection;
+			productReference = AABF044DD8977191232F811B /* DynamicDestinationSelection.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		53673A6B4CD803360816EE8F /* DealersAppWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B918B2193EA50B14EB53D5 /* Build configuration list for PBXNativeTarget "DealersAppWidgetExtension" */;
+			buildPhases = (
+				2D58CF9B472BE394708629A5 /* Sources */,
+				4E6EC15180B2B77C06075EA3 /* Frameworks */,
+				2EE2103BBA90102C07F32794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DealersAppWidgetExtension;
+			productName = DealersAppWidgetExtension;
+			productReference = 02E5D6FFABE6544E9A32E022 /* DealersAppWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7A1315B41D4B982000A5DA56 /* DealersApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1315C91D4B982000A5DA56 /* Build configuration list for PBXNativeTarget "DealersApp" */;
+			buildPhases = (
+				AE0C88F42403A2B5002A9565 /* Codesign Binaries */,
+				7A1315B11D4B982000A5DA56 /* Sources */,
+				7A1315B21D4B982000A5DA56 /* Frameworks */,
+				7A1315B31D4B982000A5DA56 /* Resources */,
+				758AC1C31D5A265200311F39 /* Embed Frameworks */,
+				FE32DC0F84B9E1FC2750CAFE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB0A9EBEF60585482F5D4F58 /* PBXTargetDependency */,
+				7EC18506D8164D1CBF76752E /* PBXTargetDependency */,
+			);
+			name = DealersApp;
+			productName = DealersApp;
+			productReference = 7A1315B51D4B982000A5DA56 /* DealersApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A5744B221DE553600E58C7F /* UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5744BC21DE553700E58C7F /* Build configuration list for PBXNativeTarget "UITests" */;
+			buildPhases = (
+				7A5744AF21DE553600E58C7F /* Sources */,
+				7A5744B021DE553600E58C7F /* Frameworks */,
+				7A5744B121DE553600E58C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A5744B921DE553700E58C7F /* PBXTargetDependency */,
+			);
+			name = UITests;
+			productName = UITests;
+			productReference = 7A5744B321DE553600E58C7F /* UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A1315AD1D4B982000A5DA56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = SAP;
+				TargetAttributes = {
+					7A1315B41D4B982000A5DA56 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = "";
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+					7A5744B221DE553600E58C7F = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A1315B41D4B982000A5DA56;
+					};
+				};
+			};
+			buildConfigurationList = 7A1315B01D4B982000A5DA56 /* Build configuration list for PBXProject "DealersApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A1315AC1D4B982000A5DA56;
+			productRefGroup = 7A1315B61D4B982000A5DA56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A1315B41D4B982000A5DA56 /* DealersApp */,
+				7A5744B221DE553600E58C7F /* UITests */,
+				53673A6B4CD803360816EE8F /* DealersAppWidgetExtension */,
+				4F122E626F64EF21A3C7AB9A /* DynamicDestinationSelection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EE2103BBA90102C07F32794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CDE8E4B4ED082560824667 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1315B31D4B982000A5DA56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A16F06D1FD1B3C700D2FABD /* README.md in Resources */,
+				7A1315C51D4B982000A5DA56 /* LaunchScreen.storyboard in Resources */,
+				7A1315C21D4B982000A5DA56 /* Assets.xcassets in Resources */,
+				CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */,
+				1277F7611F8E66AF0060AF58 /* SAPLogo@2x.png in Resources */,
+				67B32CFAB26BA61BA84CA321 /* ShipClose.storyboard in Resources */,
+				834395B3B08E8EE3F69EA619 /* RejectionCodes.storyboard in Resources */,
+				8AB3C8F9F68D13BB29FED89F /* Material.storyboard in Resources */,
+				9C83EC84DA36BD16B93904C0 /* CurrentSolicitations.storyboard in Resources */,
+				529D2B431EC5080802EE5816 /* ProxyService.storyboard in Resources */,
+				815B9A18E6F0F515D724D710 /* ConfigurationProvider.plist in Resources */,
+				D697C601ECBAAE3A075D63AE /* AppParameters.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5744B121DE553600E58C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF9FE0C75D84706526ECA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE0C88F42403A2B5002A9565 /* Codesign Binaries */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Codesign Binaries";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python3 ../scripts/codesign.py\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D58CF9B472BE394708629A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D11933BD7053FBE7E77CDD6 /* DynamicDestinationSelection.intentdefinition in Sources */,
+				68BD1A09C8C4964392210C5C /* WidgetRowView.swift in Sources */,
+				34185D3F0DB424D6F6BB49CD /* WidgetEntryView.swift in Sources */,
+				499A327E6434868CD874A35E /* LoginView.swift in Sources */,
+				94F366120015E91F15161B39 /* DealersAppWidgetEntryView.swift in Sources */,
+				49DDA7882472CC67E5B02779 /* WidgetRowViewModel.swift in Sources */,
+				8591E627392D60ED17C3746E /* ProxyServiceWidgetRowViewModel.swift in Sources */,
+				E911DFAB3BEB18EA7B7B5497 /* WidgetConfigurationProviding.swift in Sources */,
+				F63AA6446FD50E71FDC8A2A5 /* WidgetConfigurationProvider.swift in Sources */,
+				67B5C1160F26CA5112F2882D /* WidgetIntentTimelineProvider.swift in Sources */,
+				5D4323B296341C180A595541 /* WidgetEntry.swift in Sources */,
+				587EB1A45AE13ED51BDB0F01 /* Widget.swift in Sources */,
+				E08B6AD9EF11EF9C420214E4 /* DynamicDestinationSelectionIntentExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1315B11D4B982000A5DA56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1315B91D4B982000A5DA56 /* AppDelegate.swift in Sources */,
+				9085CBA505EAE3F1FD60AF69 /* ShipCloseMasterViewController.swift in Sources */,
+				9565FB287A3D3FB4F904E69D /* ShipCloseDetailViewController.swift in Sources */,
+				97772B072E62B1513E91DD97 /* RejectionCodesMasterViewController.swift in Sources */,
+				E48FA8E2F49398CDB6C6AA31 /* RejectionCodesDetailViewController.swift in Sources */,
+				0FA16994934605527421DAAA /* MaterialMasterViewController.swift in Sources */,
+				BCD09E390BB80DCBDF571F79 /* MaterialDetailViewController.swift in Sources */,
+				03FD40D212D9B883C5A2C74E /* CurrentSolicitationsMasterViewController.swift in Sources */,
+				FC6309A32D2D1540B18F9D89 /* CurrentSolicitationsDetailViewController.swift in Sources */,
+				1CAAFF86B8012CABE6BEABCB /* ProxyServiceCollectionsViewController.swift in Sources */,
+				51B6323ABE19D2422BD97F92 /* DestinationsViewController.swift in Sources */,
+				B22F1FE085070558A01CAE37 /* SAPFioriLoadingIndicator.swift in Sources */,
+				2E03D81A70BCF092B6C10C79 /* CellCreationHelper.swift in Sources */,
+				D900B9F1B7F628CD473944E3 /* AlertHelper.swift in Sources */,
+				CD3E69E85D838CF0E46846B4 /* ODataOnboardingStep.swift in Sources */,
+				A765AD39D0F16D0F523198B3 /* OnboardingFlowProvider.swift in Sources */,
+				344E75A17A8FB176FE30B93A /* OnboardingErrorHandler.swift in Sources */,
+				1493103A83012C3A931618B4 /* ApplicationUIManager.swift in Sources */,
+				EEE3634C7B549815D250CAAA /* LocalizedStrings.swift in Sources */,
+				F91CC40CDD733721712B1FFA /* WidgetDataLoadingManager.swift in Sources */,
+				E2DEDFEAF4B7A18552EEDA25 /* WidgetDataLoading.swift in Sources */,
+				5F42A7DD67D1868193359F21 /* ProxyServiceWidgetDataLoader.swift in Sources */,
+				298D98C57548D1769CDD366D /* AuxiliaryCommunicationStep.swift in Sources */,
+				3166DCE126F5FB118B5E7556 /* DeepLinkHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5744AF21DE553600E58C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5744B621DE553600E58C7F /* UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51DBC64A9F341EB7FC974C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5A437111425DF034F82485 /* DynamicDestinationSelection.intentdefinition in Sources */,
+				295B28D042F9707E47243169 /* IntentHandler.swift in Sources */,
+				2E3D0EDDA8FD37A598B03DAA /* DynamicDestinationSelectionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A5744B921DE553700E58C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A1315B41D4B982000A5DA56 /* DealersApp */;
+			targetProxy = 7A5744B821DE553700E58C7F /* PBXContainerItemProxy */;
+		};
+		7EC18506D8164D1CBF76752E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F122E626F64EF21A3C7AB9A /* DynamicDestinationSelection */;
+			targetProxy = 51A97B7CA3FEE807B4CF27A8 /* PBXContainerItemProxy */;
+		};
+		CB0A9EBEF60585482F5D4F58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53673A6B4CD803360816EE8F /* DealersAppWidgetExtension */;
+			targetProxy = 467F27983245CC8B12618E1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C9BAC2E1DB4B133F30C46CE /* ShipClose.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF8A27ACCB6FC8AC22F085B /* Base */,
+			);
+			name = ShipClose.storyboard;
+			path = ViewControllers/ProxyService/ShipClose;
+			sourceTree = "<group>";
+		};
+		35A762B0ABFFD9B07622D4AA /* Material.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2EF35CB8C9156F58FAE1E7D /* Base */,
+			);
+			name = Material.storyboard;
+			path = ViewControllers/ProxyService/Material;
+			sourceTree = "<group>";
+		};
+		4F5C989D0B6DC4CFE9F75BB3 /* ProxyService.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EF6E38FB1E51342F7BF1638 /* Base */,
+			);
+			name = ProxyService.storyboard;
+			path = ViewControllers/ProxyService;
+			sourceTree = "<group>";
+		};
+		7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A1315C41D4B982000A5DA56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C729B999F5FA9AB97A5A562A /* CurrentSolicitations.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B96E1F2290B5C56B0821045 /* Base */,
+			);
+			name = CurrentSolicitations.storyboard;
+			path = ViewControllers/ProxyService/CurrentSolicitations;
+			sourceTree = "<group>";
+		};
+		CBCA7A9B1E3778A9001AF49E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB909D801E38CA8800218154 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7796D85CFB599B5C9CEF97C /* RejectionCodes.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F64CBC59A63D867279163A2 /* Base */,
+			);
+			name = RejectionCodes.storyboard;
+			path = ViewControllers/ProxyService/RejectionCodes;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BAAB9FF2A5AB7C687A36D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = DealersAppWidget/DealersAppWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DealersAppWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueboot.mercedes.DealersApp.DealersAppWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6744D819A1ACCA629040CA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = DynamicDestinationSelection/DynamicDestinationSelection.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DynamicDestinationSelection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueboot.mercedes.DealersApp.DynamicDestinationSelection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A1315C71D4B982000A5DA56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A1315C81D4B982000A5DA56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A1315CA1D4B982000A5DA56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DealersApp/DealersApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DealersApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueboot.mercedes.DealersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7A1315CB1D4B982000A5DA56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DealersApp/DealersApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DealersApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueboot.mercedes.DealersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7A5744BA21DE553700E58C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DealersApp;
+			};
+			name = Debug;
+		};
+		7A5744BB21DE553700E58C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DealersApp;
+			};
+			name = Release;
+		};
+		96D58B28C803A125E9BD5B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = DynamicDestinationSelection/DynamicDestinationSelection.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DynamicDestinationSelection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueboot.mercedes.DealersApp.DynamicDestinationSelection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1A6506E326563BCFFBC71ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = DealersAppWidget/DealersAppWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DealersAppWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueboot.mercedes.DealersApp.DealersAppWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49E44C9AC95D4C88636961B1 /* Build configuration list for PBXNativeTarget "DynamicDestinationSelection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6744D819A1ACCA629040CA62 /* Release */,
+				96D58B28C803A125E9BD5B39 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1315B01D4B982000A5DA56 /* Build configuration list for PBXProject "DealersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1315C71D4B982000A5DA56 /* Debug */,
+				7A1315C81D4B982000A5DA56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1315C91D4B982000A5DA56 /* Build configuration list for PBXNativeTarget "DealersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1315CA1D4B982000A5DA56 /* Debug */,
+				7A1315CB1D4B982000A5DA56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A5744BC21DE553700E58C7F /* Build configuration list for PBXNativeTarget "UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5744BA21DE553700E58C7F /* Debug */,
+				7A5744BB21DE553700E58C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2B918B2193EA50B14EB53D5 /* Build configuration list for PBXNativeTarget "DealersAppWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BAAB9FF2A5AB7C687A36D3F /* Release */,
+				F1A6506E326563BCFFBC71ED /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A1315AD1D4B982000A5DA56 /* Project object */;
+}

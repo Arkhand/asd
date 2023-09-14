@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>auth</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>oauth2.authorizationEndpoint</key>
+				<string>https://f8f7c4d8trial-dev-com-blueboot-mercedes-dealersapp.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/authorize</string>
+				<key>oauth2.clients</key>
+				<array>
+					<dict>
+						<key>clientID</key>
+						<string>a3d685f4-ab69-4290-86ca-88e62b3c5e7b</string>
+						<key>grantType</key>
+						<string>authorization_code</string>
+						<key>redirectURL</key>
+						<string>com.blueboot.mercedes.DealersApp://f8f7c4d8trial-dev-com-blueboot-mercedes-dealersapp.cfapps.us10-001.hana.ondemand.com</string>
+					</dict>
+				</array>
+				<key>oauth2.pkce</key>
+				<dict>
+					<key>codeChallengeMethod</key>
+					<string>S256</string>
+				</dict>
+				<key>oauth2.tokenEndpoint</key>
+				<string>https://f8f7c4d8trial-dev-com-blueboot-mercedes-dealersapp.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/token</string>
+				<!--
+				<key>oauth2.xsuaaAuthorizationURL</key>
+				<string>https://f8f7c4d8trial.authentication.us10.hana.ondemand.com/oauth/authorize?response_type=code&amp;client_id=sb-com-blueboot-mercedes-dealersapp-dev!t170625&amp;redirect_uri=https%3A%2F%2Ff8f7c4d8trial-dev-com-blueboot-mercedes-dealersapp.cfapps.us10-001.hana.ondemand.com%2Flogin%2Fcallback</string>
+				-->
+			</dict>
+			<key>type</key>
+			<string>oauth2</string>
+		</dict>
+	</array>
+	<key>host</key>
+	<string>f8f7c4d8trial-dev-com-blueboot-mercedes-dealersapp.cfapps.us10-001.hana.ondemand.com</string>
+	<key>protocol</key>
+	<string>https</string>
+</dict>
+</plist>
